@@ -32,6 +32,9 @@ Class Common extends CI_Model
         return $res;
         
     }
+
+    
+    
     
     function getrequestxsec($host) {
         $ch = curl_init("http://$host/server-status?auto");

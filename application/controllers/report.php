@@ -122,7 +122,7 @@ class Report extends CI_Controller {
                 $total_req = $total_req + $request;
             }
             
-            echo $total_req / count($pools);
+            echo $total_req;
         }         
 
         public function infopool($pool, $check)

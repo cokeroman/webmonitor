@@ -22,6 +22,8 @@ $config['pools']['cmsweb'] = array("gcmsweb1", "gcmsweb2", "gcmsweb3", "gcmsweb4
 $config['pools']['cmsmiddle'] = array("gcmsmiddle1", "gcmsmiddle2", "gcmsmiddle3", "gcmsmiddle4", "gcmsmiddle5", "gcmsmiddle6");
 $config['pools']['webdmz'] = array("gwebdmz1", "gwebdmz2", "gwebdmz3");
 $config['pools']['token'] = array("gtoken1", "gtoken2", "gtoken3", "gtoken4");
+$config['pools']['premier'] = array("gpremiermid1", "gpremierweb1", "gpremierweb2");
+$config['pools']['tools'] = array("gtools1", "gtools2");
 
 
 # SNMP Community

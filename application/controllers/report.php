@@ -122,7 +122,7 @@ class Report extends CI_Controller {
                 $total_req = $total_req + $request;
             }
             
-            echo $total_req;
+            echo number_format($total_req, 0);
         }         
 
         public function infopool($pool, $check)
@@ -137,7 +137,7 @@ class Report extends CI_Controller {
                     $load = $this->common->getsnmpvalue($host,'.1.3.6.1.4.1.2021.10.1.3.1');
                     $total_load = $total_load + $load;
                 }
-                $data['value'] = $total_load / count($pools);
+                $data['value'] = number_format($total_load / count($pools), 2);
              }
 
             if ($check == 'http_status') {

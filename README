@@ -8,3 +8,6 @@
         Allow from env=MYNETWORK
         Allow from 172.18.0.0/16 
 </Location>
+
+
+- Se necesita la libreria curl de php.
